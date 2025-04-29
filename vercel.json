@@ -1,0 +1,9 @@
+{
+  "buildCommand": false,
+  "framework": null,
+  "outputDirectory": ".",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api" },
+    { "source": "/(.*)", "destination": "/api" }
+  ]
+}
